@@ -2,7 +2,7 @@
 
 Здесь представлены примеры SQL запросов.
 
-База данных "library" состоит из трех таблиц books, authors и genre.
+База данных состоит из трех таблиц ```books```, ```authors``` и ```genre```.
 
 ER-диаграмма таблиц выглядит так:
 
@@ -11,7 +11,7 @@ ER-диаграмма таблиц выглядит так:
 </p>
 
 <details>
-<summary>Таблица **books** — информация о книгах.</summary><br> 
+<summary>Таблица books — информация о книгах.</summary><br> 
 
 Поля:
 
@@ -28,7 +28,7 @@ ER-диаграмма таблиц выглядит так:
 </details>
 
 <details>
-<summary>Таблица **authors** — информация об авторах книг.</summary><br> 
+<summary>Таблица authors — информация об авторах книг.</summary><br> 
 
 Поля:
 
@@ -39,7 +39,7 @@ ER-диаграмма таблиц выглядит так:
 </details>
 
 <details>
-<summary>Таблица **genre** — информация о жанре книг.</summary><br> 
+<summary>Таблица genre — информация о жанре книг.</summary><br> 
 
 Поля:
 
@@ -47,3 +47,46 @@ ER-диаграмма таблиц выглядит так:
 * ```name``` - название жанра. Тип данных: ```varchar```.
 
 </details>
+
+<details>
+<summary>Таблица books — информация о книгах.</summary><br> 
+
+</details>
+
+## Оператор SELECT
+
+Выбрать все столбцы из таблицы ```books```
+```
+SELECT 
+    * 
+FROM 
+    books;
+```
+
+<details><summary>Результат запроса</summary><br> 
+
+</details><br>
+
+ Выбрать все столбцы из таблицы ```authors```
+ ```
+SELECT 
+    * 
+FROM 
+    authors;
+```
+
+<details><summary>Результат запроса</summary><br>  
+
+</details><br>
+
+ Выбрать все столбцы из таблицы ```genre```
+ ```
+SELECT 
+    * 
+FROM 
+    genre;
+```
+
+<details><summary>Результат запроса</summary><br> 
+
+</details><br>

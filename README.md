@@ -71,6 +71,8 @@ FROM
 
 <details><summary>Результат запроса</summary><br> 
 
+![1_select](https://github.com/heorhii-ap/SQL/assets/143074323/3849e69b-6b22-4098-96e8-007ec1cd8c48)
+
 </details><br>
 
  Выбрать все столбцы из таблицы ```authors```
@@ -83,6 +85,8 @@ FROM
 
 <details><summary>Результат запроса</summary><br>  
 
+![2_select](https://github.com/heorhii-ap/SQL/assets/143074323/653b5878-82da-406d-97b7-146e530050c4)
+
 </details><br>
 
  Выбрать все столбцы из таблицы ```genre```
@@ -94,5 +98,7 @@ FROM
 ```
 
 <details><summary>Результат запроса</summary><br> 
+
+![3_select](https://github.com/heorhii-ap/SQL/assets/143074323/06aecbdd-66a4-4d9d-b31e-29e8f9d89fe0)
 
 </details><br>

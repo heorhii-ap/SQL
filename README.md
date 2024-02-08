@@ -102,3 +102,59 @@ FROM
 ![3_select](https://github.com/heorhii-ap/SQL/assets/143074323/06aecbdd-66a4-4d9d-b31e-29e8f9d89fe0)
 
 </details><br>
+
+### Срезы данных WHERE
+
+ Выбрать все книги Достоевского (author_id = 9)
+
+```
+SELECT
+    title
+FROM
+    books
+WHERE
+    author_id = 9;
+```
+
+<details><summary>Результат запроса</summary><br> 
+
+![4_where](https://github.com/heorhii-ap/SQL/assets/143074323/aa8c62c4-9f82-4fc6-a7de-f21536802fe0)
+
+</details><br>
+
+Все книги, которые написал не Достоевский (author_id = 9)
+
+```
+SELECT
+    title
+FROM
+    books
+WHERE
+    author_id != 9;
+```
+
+<details><summary>Результат запроса</summary><br> 
+
+![5_where](https://github.com/heorhii-ap/SQL/assets/143074323/a1cbb4b7-2936-4ecc-8682-62c9330f4d8c)
+
+</details><br>
+
+Все книги дороже 200
+
+```
+SELECT
+    title,
+    price
+FROM
+    books
+WHERE
+    price > 200;
+```
+
+<details><summary>Результат запроса</summary><br> 
+
+![6_where](https://github.com/heorhii-ap/SQL/assets/143074323/f3668f71-d53e-405b-bfc9-2f4d03e761a6)
+
+</details><br>
+
+
